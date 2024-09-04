@@ -1,0 +1,12 @@
+[
+    {
+        "id": "001",
+        "port": "3001",
+        "status": "leader"
+    },
+    {
+        "id": "002",
+        "port": "3002",
+        "status": "follower"
+    }
+]

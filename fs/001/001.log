@@ -1,0 +1,186 @@
+2022-12-01 06:53:11,492 Broker Initialized.
+2022-12-01 06:53:11,492 Broker FS Created
+2022-12-01 06:53:11,493 Using selector: EpollSelector
+2022-12-01 06:53:11,528 Sending request - Token: 4b30, Remote: <UDP6EndpointAddress [::1]:3000>
+2022-12-01 06:53:11,528 Sending message <aiocoap.Message at 0x7f8c00570b80: Type.CON PUT (MID 550, token 4b30) remote <UDP6EndpointAddress [::1]:3000>, 2 option(s), 58 byte(s) payload>
+2022-12-01 06:53:11,528 Exchange added, message ID: 550.
+2022-12-01 06:53:11,528 Sending request - Token: c692, Remote: <UDP6EndpointAddress [::1]:3000>
+2022-12-01 06:53:11,528 Sending message <aiocoap.Message at 0x7f8c00570c10: Type.CON PUT (MID 52297, token c692) remote <UDP6EndpointAddress [::1]:3000>, 2 option(s), 45 byte(s) payload>
+2022-12-01 06:53:11,528 Exchange added, message ID: 52297.
+2022-12-01 06:53:11,529 Incoming message <aiocoap.Message at 0x7f8bfff287f0: Type.ACK 2.04 Changed (MID 550, token 4b30) remote <UDP6EndpointAddress [::1]:3000 (locally ::1%lo)>, 21 byte(s) payload>
+2022-12-01 06:53:11,529 Exchange removed, message ID: 550.
+2022-12-01 06:53:11,529 Received Response: <aiocoap.Message at 0x7f8bfff287f0: Type.ACK 2.04 Changed (MID 550, token 4b30) remote <UDP6EndpointAddress [::1]:3000 (locally ::1%lo)>, 21 byte(s) payload>
+2022-12-01 06:53:11,529 Response <aiocoap.Message at 0x7f8bfff287f0: Type.ACK 2.04 Changed (MID 550, token 4b30) remote <UDP6EndpointAddress [::1]:3000 (locally ::1%lo)>, 21 byte(s) payload> matched to request <Pipe at 0x7f8bfff28460 around <aiocoap.Message at 0x7f8c00570b80: Type.CON PUT (MID 550, token 4b30) remote <UDP6EndpointAddress [::1]:3000>, 2 option(s), 58 byte(s) payload> with 2 callbacks>
+2022-12-01 06:53:11,529 Incoming message <aiocoap.Message at 0x7f8bffeef400: Type.ACK 2.04 Changed (MID 52297, token c692) remote <UDP6EndpointAddress [::1]:3000 (locally ::1%lo)>, 17 byte(s) payload>
+2022-12-01 06:53:11,530 Exchange removed, message ID: 52297.
+2022-12-01 06:53:11,530 Received Response: <aiocoap.Message at 0x7f8bffeef400: Type.ACK 2.04 Changed (MID 52297, token c692) remote <UDP6EndpointAddress [::1]:3000 (locally ::1%lo)>, 17 byte(s) payload>
+2022-12-01 06:53:11,530 Response <aiocoap.Message at 0x7f8bffeef400: Type.ACK 2.04 Changed (MID 52297, token c692) remote <UDP6EndpointAddress [::1]:3000 (locally ::1%lo)>, 17 byte(s) payload> matched to request <Pipe at 0x7f8bfff28880 around <aiocoap.Message at 0x7f8c00570c10: Type.CON PUT (MID 52297, token c692) remote <UDP6EndpointAddress [::1]:3000>, 2 option(s), 45 byte(s) payload> with 2 callbacks>
+2022-12-01 06:53:11,530 Server ready to receive requests
+2022-12-01 06:53:15,084 Incoming message <aiocoap.Message at 0x7f8c00570910: Type.CON GET (MID 7103, token 5d1b) remote <UDP6EndpointAddress [::1]:38187 (locally ::1%lo)>, 2 option(s)>
+2022-12-01 06:53:15,084 New unique message received
+2022-12-01 06:53:15,086 Sending message <aiocoap.Message at 0x7f8bfff28490: Type.ACK 2.05 Content (MID 7103, token 5d1b) remote <UDP6EndpointAddress [::1]:38187 (locally ::1%lo)>, 19 byte(s) payload>
+2022-12-01 06:53:19,237 Incoming message <aiocoap.Message at 0x7f8bfff287f0: Type.CON PUT (MID 33257, token 2c75) remote <UDP6EndpointAddress [::1]:59158 (locally ::1%lo)>, 2 option(s), 92 byte(s) payload>
+2022-12-01 06:53:19,237 New unique message received
+2022-12-01 06:53:19,238 partition Created at ../fs/001/test/0_0_3
+2022-12-01 06:53:19,238 partition Created at ../fs/001/test/0_1_3
+2022-12-01 06:53:19,238 partition Created at ../fs/001/test/0_2_3
+2022-12-01 06:53:19,238 partition Created at ../fs/001/test/0_3_3
+2022-12-01 06:53:19,238 Message from producer id 001, Message: nasdnjasndjdjbsadbs, Topic: test
+2022-12-01 06:53:19,239 Sending message <aiocoap.Message at 0x7f8bfff29540: Type.ACK 2.04 Changed (MID 33257, token 2c75) remote <UDP6EndpointAddress [::1]:59158 (locally ::1%lo)>, 30 byte(s) payload>
+2022-12-01 06:53:20,098 Incoming message <aiocoap.Message at 0x7f8bfff293c0: Type.CON GET (MID 2152, token 2219) remote <UDP6EndpointAddress [::1]:52389 (locally ::1%lo)>, 2 option(s)>
+2022-12-01 06:53:20,098 New unique message received
+2022-12-01 06:53:20,099 Sending message <aiocoap.Message at 0x7f8bfff29b10: Type.ACK 2.05 Content (MID 2152, token 2219) remote <UDP6EndpointAddress [::1]:52389 (locally ::1%lo)>, 19 byte(s) payload>
+2022-12-01 06:53:21,530 Sending request - Token: 7404, Remote: <UDP6EndpointAddress [::1]:3001>
+2022-12-01 06:53:21,530 Sending message <aiocoap.Message at 0x7f8bfff29450: Type.CON PUT (MID 32103, token 7404) remote <UDP6EndpointAddress [::1]:3001>, 2 option(s), 23 byte(s) payload>
+2022-12-01 06:53:21,531 Exchange added, message ID: 32103.
+2022-12-01 06:53:21,531 Incoming message <aiocoap.Message at 0x7f8bfff29ed0: Type.CON PUT (MID 32103, token 7404) remote <UDP6EndpointAddress [::1]:36261 (locally ::1%lo)>, 2 option(s), 23 byte(s) payload>
+2022-12-01 06:53:21,532 New unique message received
+2022-12-01 06:53:21,533 Sending message <aiocoap.Message at 0x7f8bfff2a560: Type.ACK 2.04 Changed (MID 32103, token 7404) remote <UDP6EndpointAddress [::1]:36261 (locally ::1%lo)>, 101 byte(s) payload>
+2022-12-01 06:53:21,534 Incoming message <aiocoap.Message at 0x7f8bfff2a3e0: Type.ACK 2.04 Changed (MID 32103, token 7404) remote <UDP6EndpointAddress [::1]:3001 (locally ::1%lo)>, 101 byte(s) payload>
+2022-12-01 06:53:21,535 Exchange removed, message ID: 32103.
+2022-12-01 06:53:21,535 Received Response: <aiocoap.Message at 0x7f8bfff2a3e0: Type.ACK 2.04 Changed (MID 32103, token 7404) remote <UDP6EndpointAddress [::1]:3001 (locally ::1%lo)>, 101 byte(s) payload>
+2022-12-01 06:53:21,535 Response <aiocoap.Message at 0x7f8bfff2a3e0: Type.ACK 2.04 Changed (MID 32103, token 7404) remote <UDP6EndpointAddress [::1]:3001 (locally ::1%lo)>, 101 byte(s) payload> matched to request <Pipe at 0x7f8bfff29f30 around <aiocoap.Message at 0x7f8bfff29450: Type.CON PUT (MID 32103, token 7404) remote <UDP6EndpointAddress [::1]:3001>, 2 option(s), 23 byte(s) payload> with 2 callbacks>
+2022-12-01 06:53:21,537 Sending request - Token: 54c8, Remote: <UDP6EndpointAddress [::1]:3002>
+2022-12-01 06:53:21,537 Sending message <aiocoap.Message at 0x7f8bfff2a0b0: Type.CON PUT (MID 7102, token 54c8) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 23 byte(s) payload>
+2022-12-01 06:53:21,537 Exchange added, message ID: 7102.
+2022-12-01 06:53:21,538 Incoming message <aiocoap.Message at 0x7f8bfff2aa10: Type.ACK 2.04 Changed (MID 7102, token 54c8) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 17 byte(s) payload>
+2022-12-01 06:53:21,539 Exchange removed, message ID: 7102.
+2022-12-01 06:53:21,539 Received Response: <aiocoap.Message at 0x7f8bfff2aa10: Type.ACK 2.04 Changed (MID 7102, token 54c8) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 17 byte(s) payload>
+2022-12-01 06:53:21,539 Response <aiocoap.Message at 0x7f8bfff2aa10: Type.ACK 2.04 Changed (MID 7102, token 54c8) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 17 byte(s) payload> matched to request <Pipe at 0x7f8bfff2aa70 around <aiocoap.Message at 0x7f8bfff2a0b0: Type.CON PUT (MID 7102, token 54c8) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 23 byte(s) payload> with 2 callbacks>
+2022-12-01 06:53:21,540 Sending request - Token: 54c9, Remote: <UDP6EndpointAddress [::1]:3002>
+2022-12-01 06:53:21,540 Sending message <aiocoap.Message at 0x7f8bfff299c0: Type.CON PUT (MID 14840, token 54c9) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 102 byte(s) payload>
+2022-12-01 06:53:21,540 Exchange added, message ID: 14840.
+2022-12-01 06:53:21,542 Incoming message <aiocoap.Message at 0x7f8bfff2acb0: Type.ACK 2.04 Changed (MID 14840, token 54c9) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload>
+2022-12-01 06:53:21,542 Exchange removed, message ID: 14840.
+2022-12-01 06:53:21,542 Received Response: <aiocoap.Message at 0x7f8bfff2acb0: Type.ACK 2.04 Changed (MID 14840, token 54c9) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload>
+2022-12-01 06:53:21,542 Response <aiocoap.Message at 0x7f8bfff2acb0: Type.ACK 2.04 Changed (MID 14840, token 54c9) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload> matched to request <Pipe at 0x7f8bfff2ad10 around <aiocoap.Message at 0x7f8bfff299c0: Type.CON PUT (MID 14840, token 54c9) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 102 byte(s) payload> with 2 callbacks>
+2022-12-01 06:53:21,543 Sending request - Token: 54ca, Remote: <UDP6EndpointAddress [::1]:3002>
+2022-12-01 06:53:21,543 Sending message <aiocoap.Message at 0x7f8bfff296f0: Type.CON PUT (MID 14841, token 54ca) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 102 byte(s) payload>
+2022-12-01 06:53:21,543 Exchange added, message ID: 14841.
+2022-12-01 06:53:21,544 Incoming message <aiocoap.Message at 0x7f8bfff2af20: Type.ACK 2.04 Changed (MID 14841, token 54ca) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload>
+2022-12-01 06:53:21,544 Exchange removed, message ID: 14841.
+2022-12-01 06:53:21,544 Received Response: <aiocoap.Message at 0x7f8bfff2af20: Type.ACK 2.04 Changed (MID 14841, token 54ca) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload>
+2022-12-01 06:53:21,545 Response <aiocoap.Message at 0x7f8bfff2af20: Type.ACK 2.04 Changed (MID 14841, token 54ca) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload> matched to request <Pipe at 0x7f8bfff2af80 around <aiocoap.Message at 0x7f8bfff296f0: Type.CON PUT (MID 14841, token 54ca) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 102 byte(s) payload> with 2 callbacks>
+2022-12-01 06:53:21,545 Sending request - Token: 54cb, Remote: <UDP6EndpointAddress [::1]:3002>
+2022-12-01 06:53:21,545 Sending message <aiocoap.Message at 0x7f8bfff2aa40: Type.CON PUT (MID 14842, token 54cb) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 102 byte(s) payload>
+2022-12-01 06:53:21,545 Exchange added, message ID: 14842.
+2022-12-01 06:53:21,547 Incoming message <aiocoap.Message at 0x7f8bfff2b100: Type.ACK 2.04 Changed (MID 14842, token 54cb) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload>
+2022-12-01 06:53:21,547 Exchange removed, message ID: 14842.
+2022-12-01 06:53:21,547 Received Response: <aiocoap.Message at 0x7f8bfff2b100: Type.ACK 2.04 Changed (MID 14842, token 54cb) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload>
+2022-12-01 06:53:21,547 Response <aiocoap.Message at 0x7f8bfff2b100: Type.ACK 2.04 Changed (MID 14842, token 54cb) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload> matched to request <Pipe at 0x7f8bfff2af80 around <aiocoap.Message at 0x7f8bfff2aa40: Type.CON PUT (MID 14842, token 54cb) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 102 byte(s) payload> with 2 callbacks>
+2022-12-01 06:53:21,548 Sending request - Token: 54cc, Remote: <UDP6EndpointAddress [::1]:3002>
+2022-12-01 06:53:21,548 Sending message <aiocoap.Message at 0x7f8bfff2acb0: Type.CON PUT (MID 14843, token 54cc) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 97 byte(s) payload>
+2022-12-01 06:53:21,548 Exchange added, message ID: 14843.
+2022-12-01 06:53:21,549 Incoming message <aiocoap.Message at 0x7f8bfff2b0d0: Type.ACK 2.04 Changed (MID 14843, token 54cc) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload>
+2022-12-01 06:53:21,549 Exchange removed, message ID: 14843.
+2022-12-01 06:53:21,549 Received Response: <aiocoap.Message at 0x7f8bfff2b0d0: Type.ACK 2.04 Changed (MID 14843, token 54cc) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload>
+2022-12-01 06:53:21,549 Response <aiocoap.Message at 0x7f8bfff2b0d0: Type.ACK 2.04 Changed (MID 14843, token 54cc) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload> matched to request <Pipe at 0x7f8bfff2af80 around <aiocoap.Message at 0x7f8bfff2acb0: Type.CON PUT (MID 14843, token 54cc) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 97 byte(s) payload> with 2 callbacks>
+2022-12-01 06:53:25,107 Incoming message <aiocoap.Message at 0x7f8bfff2b040: Type.CON GET (MID 22049, token 7823) remote <UDP6EndpointAddress [::1]:40459 (locally ::1%lo)>, 2 option(s)>
+2022-12-01 06:53:25,107 New unique message received
+2022-12-01 06:53:25,108 Sending message <aiocoap.Message at 0x7f8bfff2af20: Type.ACK 2.05 Content (MID 22049, token 7823) remote <UDP6EndpointAddress [::1]:40459 (locally ::1%lo)>, 19 byte(s) payload>
+2022-12-01 06:53:30,120 Incoming message <aiocoap.Message at 0x7f8bfff29810: Type.CON GET (MID 48759, token 2561) remote <UDP6EndpointAddress [::1]:32993 (locally ::1%lo)>, 2 option(s)>
+2022-12-01 06:53:30,121 New unique message received
+2022-12-01 06:53:30,122 Sending message <aiocoap.Message at 0x7f8bfff2b4c0: Type.ACK 2.05 Content (MID 48759, token 2561) remote <UDP6EndpointAddress [::1]:32993 (locally ::1%lo)>, 19 byte(s) payload>
+2022-12-01 06:53:31,553 Sending request - Token: d3d3, Remote: <UDP6EndpointAddress [::1]:3001>
+2022-12-01 06:53:31,554 Sending message <aiocoap.Message at 0x7f8bfff2b220: Type.CON PUT (MID 49984, token d3d3) remote <UDP6EndpointAddress [::1]:3001>, 2 option(s), 23 byte(s) payload>
+2022-12-01 06:53:31,554 Exchange added, message ID: 49984.
+2022-12-01 06:53:31,555 Incoming message <aiocoap.Message at 0x7f8bfff2b790: Type.CON PUT (MID 49984, token d3d3) remote <UDP6EndpointAddress [::1]:43733 (locally ::1%lo)>, 2 option(s), 23 byte(s) payload>
+2022-12-01 06:53:31,555 New unique message received
+2022-12-01 06:53:31,557 Sending message <aiocoap.Message at 0x7f8bffeed030: Type.ACK 2.04 Changed (MID 49984, token d3d3) remote <UDP6EndpointAddress [::1]:43733 (locally ::1%lo)>, 101 byte(s) payload>
+2022-12-01 06:53:31,557 Connection loss was not expected.
+2022-12-01 06:53:31,557 Connection loss was not expected.
+2022-12-01 06:53:31,557 Connection loss was not expected.
+2022-12-01 06:53:31,557 Connection loss was not expected.
+2022-12-01 06:53:31,558 Incoming message <aiocoap.Message at 0x7f8bffeef3a0: Type.ACK 2.04 Changed (MID 49984, token d3d3) remote <UDP6EndpointAddress [::1]:3001 (locally ::1%lo)>, 101 byte(s) payload>
+2022-12-01 06:53:31,558 Exchange removed, message ID: 49984.
+2022-12-01 06:53:31,558 Received Response: <aiocoap.Message at 0x7f8bffeef3a0: Type.ACK 2.04 Changed (MID 49984, token d3d3) remote <UDP6EndpointAddress [::1]:3001 (locally ::1%lo)>, 101 byte(s) payload>
+2022-12-01 06:53:31,558 Response <aiocoap.Message at 0x7f8bffeef3a0: Type.ACK 2.04 Changed (MID 49984, token d3d3) remote <UDP6EndpointAddress [::1]:3001 (locally ::1%lo)>, 101 byte(s) payload> matched to request <Pipe at 0x7f8bfff2b7f0 around <aiocoap.Message at 0x7f8bfff2b220: Type.CON PUT (MID 49984, token d3d3) remote <UDP6EndpointAddress [::1]:3001>, 2 option(s), 23 byte(s) payload> with 2 callbacks>
+2022-12-01 06:53:31,562 Sending request - Token: 242c, Remote: <UDP6EndpointAddress [::1]:3002>
+2022-12-01 06:53:31,563 Sending message <aiocoap.Message at 0x7f8bffeed120: Type.CON PUT (MID 5128, token 242c) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 23 byte(s) payload>
+2022-12-01 06:53:31,563 Exchange added, message ID: 5128.
+2022-12-01 06:53:31,566 Incoming message <aiocoap.Message at 0x7f8bfff2b2b0: Type.ACK 2.04 Changed (MID 5128, token 242c) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 101 byte(s) payload>
+2022-12-01 06:53:31,566 Exchange removed, message ID: 5128.
+2022-12-01 06:53:31,566 Received Response: <aiocoap.Message at 0x7f8bfff2b2b0: Type.ACK 2.04 Changed (MID 5128, token 242c) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 101 byte(s) payload>
+2022-12-01 06:53:31,567 Response <aiocoap.Message at 0x7f8bfff2b2b0: Type.ACK 2.04 Changed (MID 5128, token 242c) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 101 byte(s) payload> matched to request <Pipe at 0x7f8bfff2b730 around <aiocoap.Message at 0x7f8bffeed120: Type.CON PUT (MID 5128, token 242c) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 23 byte(s) payload> with 2 callbacks>
+2022-12-01 06:53:31,570 Sending request - Token: da23, Remote: <UDP6EndpointAddress [::1]:3002>
+2022-12-01 06:53:31,570 Sending message <aiocoap.Message at 0x7f8bffeed090: Type.CON PUT (MID 8009, token da23) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 102 byte(s) payload>
+2022-12-01 06:53:31,570 Exchange added, message ID: 8009.
+2022-12-01 06:53:31,572 Incoming message <aiocoap.Message at 0x7f8bfff2bd00: Type.ACK 2.04 Changed (MID 8009, token da23) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload>
+2022-12-01 06:53:31,572 Exchange removed, message ID: 8009.
+2022-12-01 06:53:31,572 Received Response: <aiocoap.Message at 0x7f8bfff2bd00: Type.ACK 2.04 Changed (MID 8009, token da23) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload>
+2022-12-01 06:53:31,572 Response <aiocoap.Message at 0x7f8bfff2bd00: Type.ACK 2.04 Changed (MID 8009, token da23) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload> matched to request <Pipe at 0x7f8bfff2b6a0 around <aiocoap.Message at 0x7f8bffeed090: Type.CON PUT (MID 8009, token da23) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 102 byte(s) payload> with 2 callbacks>
+2022-12-01 06:53:31,573 Sending request - Token: da24, Remote: <UDP6EndpointAddress [::1]:3002>
+2022-12-01 06:53:31,573 Sending message <aiocoap.Message at 0x7f8bffeed060: Type.CON PUT (MID 8010, token da24) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 102 byte(s) payload>
+2022-12-01 06:53:31,573 Exchange added, message ID: 8010.
+2022-12-01 06:53:31,574 Incoming message <aiocoap.Message at 0x7f8bfff29690: Type.ACK 2.04 Changed (MID 8010, token da24) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload>
+2022-12-01 06:53:31,574 Exchange removed, message ID: 8010.
+2022-12-01 06:53:31,574 Received Response: <aiocoap.Message at 0x7f8bfff29690: Type.ACK 2.04 Changed (MID 8010, token da24) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload>
+2022-12-01 06:53:31,575 Response <aiocoap.Message at 0x7f8bfff29690: Type.ACK 2.04 Changed (MID 8010, token da24) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload> matched to request <Pipe at 0x7f8bfff2b070 around <aiocoap.Message at 0x7f8bffeed060: Type.CON PUT (MID 8010, token da24) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 102 byte(s) payload> with 2 callbacks>
+2022-12-01 06:53:31,575 Sending request - Token: da25, Remote: <UDP6EndpointAddress [::1]:3002>
+2022-12-01 06:53:31,575 Sending message <aiocoap.Message at 0x7f8bffeef430: Type.CON PUT (MID 8011, token da25) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 102 byte(s) payload>
+2022-12-01 06:53:31,576 Exchange added, message ID: 8011.
+2022-12-01 06:53:31,577 Incoming message <aiocoap.Message at 0x7f8bfff2ae60: Type.ACK 2.04 Changed (MID 8011, token da25) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload>
+2022-12-01 06:53:31,577 Exchange removed, message ID: 8011.
+2022-12-01 06:53:31,577 Received Response: <aiocoap.Message at 0x7f8bfff2ae60: Type.ACK 2.04 Changed (MID 8011, token da25) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload>
+2022-12-01 06:53:31,577 Response <aiocoap.Message at 0x7f8bfff2ae60: Type.ACK 2.04 Changed (MID 8011, token da25) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload> matched to request <Pipe at 0x7f8bfff2b070 around <aiocoap.Message at 0x7f8bffeef430: Type.CON PUT (MID 8011, token da25) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 102 byte(s) payload> with 2 callbacks>
+2022-12-01 06:53:31,578 Sending request - Token: da26, Remote: <UDP6EndpointAddress [::1]:3002>
+2022-12-01 06:53:31,578 Sending message <aiocoap.Message at 0x7f8bffeed090: Type.CON PUT (MID 8012, token da26) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 97 byte(s) payload>
+2022-12-01 06:53:31,578 Exchange added, message ID: 8012.
+2022-12-01 06:53:31,579 Incoming message <aiocoap.Message at 0x7f8bfff2a9b0: Type.ACK 2.04 Changed (MID 8012, token da26) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload>
+2022-12-01 06:53:31,579 Exchange removed, message ID: 8012.
+2022-12-01 06:53:31,579 Received Response: <aiocoap.Message at 0x7f8bfff2a9b0: Type.ACK 2.04 Changed (MID 8012, token da26) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload>
+2022-12-01 06:53:31,579 Response <aiocoap.Message at 0x7f8bfff2a9b0: Type.ACK 2.04 Changed (MID 8012, token da26) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload> matched to request <Pipe at 0x7f8bfff2b070 around <aiocoap.Message at 0x7f8bffeed090: Type.CON PUT (MID 8012, token da26) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 97 byte(s) payload> with 2 callbacks>
+2022-12-01 06:53:35,140 Incoming message <aiocoap.Message at 0x7f8bffeef3a0: Type.CON GET (MID 57235, token d8cf) remote <UDP6EndpointAddress [::1]:37057 (locally ::1%lo)>, 2 option(s)>
+2022-12-01 06:53:35,141 New unique message received
+2022-12-01 06:53:35,142 Sending message <aiocoap.Message at 0x7f8bfff2b9d0: Type.ACK 2.05 Content (MID 57235, token d8cf) remote <UDP6EndpointAddress [::1]:37057 (locally ::1%lo)>, 19 byte(s) payload>
+2022-12-01 06:53:40,158 Incoming message <aiocoap.Message at 0x7f8bfff2b220: Type.CON GET (MID 15055, token bf36) remote <UDP6EndpointAddress [::1]:59361 (locally ::1%lo)>, 2 option(s)>
+2022-12-01 06:53:40,159 New unique message received
+2022-12-01 06:53:40,161 Sending message <aiocoap.Message at 0x7f8bfff29ff0: Type.ACK 2.05 Content (MID 15055, token bf36) remote <UDP6EndpointAddress [::1]:59361 (locally ::1%lo)>, 19 byte(s) payload>
+2022-12-01 06:53:41,582 Sending request - Token: 36f3, Remote: <UDP6EndpointAddress [::1]:3001>
+2022-12-01 06:53:41,582 Sending message <aiocoap.Message at 0x7f8bfff2ae90: Type.CON PUT (MID 6381, token 36f3) remote <UDP6EndpointAddress [::1]:3001>, 2 option(s), 23 byte(s) payload>
+2022-12-01 06:53:41,582 Exchange added, message ID: 6381.
+2022-12-01 06:53:41,582 Incoming message <aiocoap.Message at 0x7f8bfff29390: Type.CON PUT (MID 6381, token 36f3) remote <UDP6EndpointAddress [::1]:56508 (locally ::1%lo)>, 2 option(s), 23 byte(s) payload>
+2022-12-01 06:53:41,583 New unique message received
+2022-12-01 06:53:41,583 Sending message <aiocoap.Message at 0x7f8bfff70070: Type.ACK 2.04 Changed (MID 6381, token 36f3) remote <UDP6EndpointAddress [::1]:56508 (locally ::1%lo)>, 101 byte(s) payload>
+2022-12-01 06:53:41,583 Incoming message <aiocoap.Message at 0x7f8bfff2beb0: Type.ACK 2.04 Changed (MID 6381, token 36f3) remote <UDP6EndpointAddress [::1]:3001 (locally ::1%lo)>, 101 byte(s) payload>
+2022-12-01 06:53:41,583 Exchange removed, message ID: 6381.
+2022-12-01 06:53:41,584 Received Response: <aiocoap.Message at 0x7f8bfff2beb0: Type.ACK 2.04 Changed (MID 6381, token 36f3) remote <UDP6EndpointAddress [::1]:3001 (locally ::1%lo)>, 101 byte(s) payload>
+2022-12-01 06:53:41,584 Response <aiocoap.Message at 0x7f8bfff2beb0: Type.ACK 2.04 Changed (MID 6381, token 36f3) remote <UDP6EndpointAddress [::1]:3001 (locally ::1%lo)>, 101 byte(s) payload> matched to request <Pipe at 0x7f8bfff28550 around <aiocoap.Message at 0x7f8bfff2ae90: Type.CON PUT (MID 6381, token 36f3) remote <UDP6EndpointAddress [::1]:3001>, 2 option(s), 23 byte(s) payload> with 2 callbacks>
+2022-12-01 06:53:41,585 Sending request - Token: 0114, Remote: <UDP6EndpointAddress [::1]:3002>
+2022-12-01 06:53:41,586 Sending message <aiocoap.Message at 0x7f8c005708b0: Type.CON PUT (MID 60817, token 0114) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 23 byte(s) payload>
+2022-12-01 06:53:41,586 Exchange added, message ID: 60817.
+2022-12-01 06:53:41,587 Incoming message <aiocoap.Message at 0x7f8bfff701f0: Type.ACK 2.04 Changed (MID 60817, token 0114) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 101 byte(s) payload>
+2022-12-01 06:53:41,587 Exchange removed, message ID: 60817.
+2022-12-01 06:53:41,587 Received Response: <aiocoap.Message at 0x7f8bfff701f0: Type.ACK 2.04 Changed (MID 60817, token 0114) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 101 byte(s) payload>
+2022-12-01 06:53:41,587 Response <aiocoap.Message at 0x7f8bfff701f0: Type.ACK 2.04 Changed (MID 60817, token 0114) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 101 byte(s) payload> matched to request <Pipe at 0x7f8bfff70130 around <aiocoap.Message at 0x7f8c005708b0: Type.CON PUT (MID 60817, token 0114) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 23 byte(s) payload> with 2 callbacks>
+2022-12-01 06:53:41,589 Sending request - Token: bd00, Remote: <UDP6EndpointAddress [::1]:3002>
+2022-12-01 06:53:41,589 Sending message <aiocoap.Message at 0x7f8bfff2b310: Type.CON PUT (MID 43985, token bd00) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 102 byte(s) payload>
+2022-12-01 06:53:41,589 Exchange added, message ID: 43985.
+2022-12-01 06:53:41,590 Incoming message <aiocoap.Message at 0x7f8bfff70580: Type.ACK 2.04 Changed (MID 43985, token bd00) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload>
+2022-12-01 06:53:41,591 Exchange removed, message ID: 43985.
+2022-12-01 06:53:41,591 Received Response: <aiocoap.Message at 0x7f8bfff70580: Type.ACK 2.04 Changed (MID 43985, token bd00) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload>
+2022-12-01 06:53:41,591 Response <aiocoap.Message at 0x7f8bfff70580: Type.ACK 2.04 Changed (MID 43985, token bd00) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload> matched to request <Pipe at 0x7f8bfff705e0 around <aiocoap.Message at 0x7f8bfff2b310: Type.CON PUT (MID 43985, token bd00) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 102 byte(s) payload> with 2 callbacks>
+2022-12-01 06:53:41,591 Sending request - Token: bd01, Remote: <UDP6EndpointAddress [::1]:3002>
+2022-12-01 06:53:41,592 Sending message <aiocoap.Message at 0x7f8bfff2b1c0: Type.CON PUT (MID 43986, token bd01) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 102 byte(s) payload>
+2022-12-01 06:53:41,592 Exchange added, message ID: 43986.
+2022-12-01 06:53:41,593 Incoming message <aiocoap.Message at 0x7f8bfff707f0: Type.ACK 2.04 Changed (MID 43986, token bd01) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload>
+2022-12-01 06:53:41,593 Exchange removed, message ID: 43986.
+2022-12-01 06:53:41,593 Received Response: <aiocoap.Message at 0x7f8bfff707f0: Type.ACK 2.04 Changed (MID 43986, token bd01) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload>
+2022-12-01 06:53:41,593 Response <aiocoap.Message at 0x7f8bfff707f0: Type.ACK 2.04 Changed (MID 43986, token bd01) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload> matched to request <Pipe at 0x7f8bfff70850 around <aiocoap.Message at 0x7f8bfff2b1c0: Type.CON PUT (MID 43986, token bd01) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 102 byte(s) payload> with 2 callbacks>
+2022-12-01 06:53:41,594 Sending request - Token: bd02, Remote: <UDP6EndpointAddress [::1]:3002>
+2022-12-01 06:53:41,594 Sending message <aiocoap.Message at 0x7f8bfff2b280: Type.CON PUT (MID 43987, token bd02) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 102 byte(s) payload>
+2022-12-01 06:53:41,594 Exchange added, message ID: 43987.
+2022-12-01 06:53:41,596 Incoming message <aiocoap.Message at 0x7f8bfff709d0: Type.ACK 2.04 Changed (MID 43987, token bd02) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload>
+2022-12-01 06:53:41,596 Exchange removed, message ID: 43987.
+2022-12-01 06:53:41,596 Received Response: <aiocoap.Message at 0x7f8bfff709d0: Type.ACK 2.04 Changed (MID 43987, token bd02) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload>
+2022-12-01 06:53:41,596 Response <aiocoap.Message at 0x7f8bfff709d0: Type.ACK 2.04 Changed (MID 43987, token bd02) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload> matched to request <Pipe at 0x7f8bfff70850 around <aiocoap.Message at 0x7f8bfff2b280: Type.CON PUT (MID 43987, token bd02) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 102 byte(s) payload> with 2 callbacks>
+2022-12-01 06:53:41,597 Sending request - Token: bd03, Remote: <UDP6EndpointAddress [::1]:3002>
+2022-12-01 06:53:41,597 Sending message <aiocoap.Message at 0x7f8bfff2b310: Type.CON PUT (MID 43988, token bd03) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 97 byte(s) payload>
+2022-12-01 06:53:41,597 Exchange added, message ID: 43988.
+2022-12-01 06:53:41,598 Incoming message <aiocoap.Message at 0x7f8bfff70670: Type.ACK 2.04 Changed (MID 43988, token bd03) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload>
+2022-12-01 06:53:41,599 Exchange removed, message ID: 43988.
+2022-12-01 06:53:41,599 Received Response: <aiocoap.Message at 0x7f8bfff70670: Type.ACK 2.04 Changed (MID 43988, token bd03) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload>
+2022-12-01 06:53:41,599 Response <aiocoap.Message at 0x7f8bfff70670: Type.ACK 2.04 Changed (MID 43988, token bd03) remote <UDP6EndpointAddress [::1]:3002 (locally ::1%lo)>, 13 byte(s) payload> matched to request <Pipe at 0x7f8bfff70850 around <aiocoap.Message at 0x7f8bfff2b310: Type.CON PUT (MID 43988, token bd03) remote <UDP6EndpointAddress [::1]:3002>, 2 option(s), 97 byte(s) payload> with 2 callbacks>
+2022-12-01 06:53:45,181 Incoming message <aiocoap.Message at 0x7f8bfff29ed0: Type.CON GET (MID 36431, token 7d05) remote <UDP6EndpointAddress [::1]:49347 (locally ::1%lo)>, 2 option(s)>
+2022-12-01 06:53:45,181 New unique message received
+2022-12-01 06:53:45,183 Sending message <aiocoap.Message at 0x7f8bfff705b0: Type.ACK 2.05 Content (MID 36431, token 7d05) remote <UDP6EndpointAddress [::1]:49347 (locally ::1%lo)>, 19 byte(s) payload>
